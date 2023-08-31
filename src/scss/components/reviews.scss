@@ -1,0 +1,45 @@
+body {
+  .single-review {
+    h2 {
+      font-size: 22px;
+      margin-bottom: 0;
+    }
+
+    .review-title {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      h1 {
+        margin: 20px 0 10px;
+      }
+
+      h5 {
+        margin-top: 0;
+        text-decoration: underline;
+      }
+
+      ol {
+        padding: 0;
+
+        li {
+          a {
+            color: $blue;
+            font-size: 18px;
+            font-weight: 600;
+            &:hover {
+              color: $link-blue;
+              text-shadow: 0.5px 0.5px $link-blue;
+            }
+          }
+        }
+      }
+    }
+
+    .review-meta {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+}

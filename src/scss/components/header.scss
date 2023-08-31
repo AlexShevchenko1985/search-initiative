@@ -1,0 +1,42 @@
+body {
+  #masthead {
+    padding: 0;
+
+    .cssmenu {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  .site-branding {
+    padding: 10px 0;
+
+    a {
+      padding: 0;
+      margin: 0;
+
+      img {
+        max-height: 50px;
+      }
+    }
+  }
+
+  .menu-wrap {
+    display: flex;
+
+    .menu {
+      width: max-content;
+    }
+
+    .header-languages {
+      display: flex;
+      align-items: center;
+      list-style-type: none;
+
+      li {
+        margin-left: 10px;
+      }
+
+    }
+  }
+}
